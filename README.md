@@ -25,13 +25,19 @@ Beyza Göncüler: Developer
 Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri daha kolay iletmesini sağlayacak. Aynı zamanda belediyenin bu problemeleri çözerken daha kolay ve hızlı yönlendirme yapabilmesi ile işlerini kolaylaştıracak.
 
 ##Ürün Özellikleri
+
 -Konum belirleme
+
 -En yakın yetkiliye bildirim gönderme
+
 -Problemin fotoğrafını ekleyebilme
+
 -Problemin tanımını yapabilme
 
 ##Hedef Kitle
 
 -Problem çözme odaklı insanlar 
+
 -Duyarlı insanlar
+
 -25 - 65 yaş arası kullanıcılar
