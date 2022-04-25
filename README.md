@@ -32,7 +32,7 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 
 -Problemin fotoğrafını ekleyebilme
 
-## Sprint1
+
 
 -Problemin tanımını yapabilme
 
@@ -44,3 +44,5 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 
 -25 - 65 yaş arası kullanıcılar
 
+
+## Sprint1
