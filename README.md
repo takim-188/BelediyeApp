@@ -41,3 +41,7 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 -Duyarlı insanlar
 
 -25 - 65 yaş arası kullanıcılar
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
