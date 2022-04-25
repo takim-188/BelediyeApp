@@ -1,9 +1,9 @@
-#Takım İsmi
+## Takım İsmi
   Takım-188
 
-#Ürün İle İlgili Bilgiler
+## Ürün ile ilgili Bilgiler
 
-##Takım Elemanları
+## Takım Elemanları
 
 Elif Özdemir: Product Owner
 
@@ -16,15 +16,15 @@ Furkan Sarıkaya: Developer
 Beyza Göncüler: Developer
 
 
-##Ürün İsmi
+## Ürün İsmi
 
 --Belde App--
 
-##Ürün Açıklaması
+## Ürün Açıklaması
 
 Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri daha kolay iletmesini sağlayacak. Aynı zamanda belediyenin bu problemeleri çözerken daha kolay ve hızlı yönlendirme yapabilmesi ile işlerini kolaylaştıracak.
 
-##Ürün Özellikleri
+## Ürün Özellikleri
 
 -Konum belirleme
 
@@ -34,7 +34,7 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 
 -Problemin tanımını yapabilme
 
-##Hedef Kitle
+## Hedef Kitle
 
 -Problem çözme odaklı insanlar 
 
@@ -42,6 +42,3 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 
 -25 - 65 yaş arası kullanıcılar
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
