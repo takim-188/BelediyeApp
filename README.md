@@ -6,12 +6,18 @@
 ##Takım Elemanları
 
 Elif Özdemir: Product Owner
+
 Mehmet Ali Yücel: Scrum Master
+
 Furkan Sarıkaya: Developer
+
 Şevval Kapçak: Developer
+
 Beyza Göncüler: Developer
 
+
 ##Ürün İsmi
+
 --Belde App--
 
 ##Ürün Açıklaması
