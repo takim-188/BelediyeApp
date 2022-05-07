@@ -1,16 +1,71 @@
-# belediye_app
+## Takım İsmi
+  Takım-188
 
-A new Flutter project.
+## Ürün ile ilgili Bilgiler
 
-## Getting Started
+## Takım Elemanları
 
-This project is a starting point for a Flutter application.
+Elif Özdemir: Product Owner
 
-A few resources to get you started if this is your first Flutter project:
+Mehmet Ali Yücel: Scrum Master
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Furkan Sarıkaya: Developer
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Şevval Kapçak: Developer
+
+Beyza Göncüler: Developer
+
+
+## Ürün İsmi
+
+--Belde App--
+
+## Ürün Açıklaması
+
+Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri, belediyeye  daha kolay iletmesini sağlayacak. Aynı zamanda uygulamanın hızlı yönlendirme yapabilmesi ile belediyenin bu problemleri çözmesi daha kolay ve pratik olacak.
+
+## Ürün Özellikleri
+
+-Konum belirleme
+
+-En yakın yetkiliye bildirim gönderme
+
+-Problemin fotoğrafını ekleyebilme
+
+
+
+-Problemin tanımını yapabilme
+
+## Hedef Kitle
+
+-Problem çözme odaklı insanlar 
+
+-Duyarlı insanlar
+
+-15 - 65 yaş arası kullanıcılar
+
+
+## Sprint1
+
+* **Sprint notları:** 
+
+* **Sprint içinde tamamlanması gereken puan:** 
+
+* **Puan tamamlama mantığı:** 100 Puan
+
+* **Backlog düzeni ve Story seçimleri:** 
+
+
+* **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
+
+* **Sprint Board Update:** ???
+
+* **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü
+
+* **Ürün Durumu:** Ürünün güncel ekran görüntüleri
+
+* **Sprint Review:** 
+
+* **Sprint Retrospective:** 
+
+* **Diğer Notlar:**  
