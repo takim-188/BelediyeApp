@@ -63,3 +63,9 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 * **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü
 
 * **Ürün Durumu:** Ürünün güncel ekran görüntüleri
+
+* **Sprint Review:** 
+
+* **Sprint Retrospective:** 
+
+* **Diğer Notlar:**  
