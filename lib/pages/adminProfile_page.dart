@@ -64,7 +64,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 15.0),
-                      child: Text("20/02/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
+                      child: Text("07/05/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
                     ),
                   ],),
 
@@ -169,7 +169,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
               decoration: InputDecoration(
 
                 labelText: "Çalışma Alanı",
-                prefixIcon: Icon(Icons.phone),
+                prefixIcon: Icon(Icons.work_outline),
                 prefixIconColor: Colors.blueGrey,
                 suffixIcon: IconButton(icon: _isEditOn2 ? Icon(Icons.edit, color: Colors.blueGrey,) : Icon(Icons.done, color: Colors.blueGrey,), onPressed: _toggle2,),
 

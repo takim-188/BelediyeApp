@@ -36,14 +36,14 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          SizedBox(height: 50,),
+          SizedBox(height: 80,),
           Text("Kaydol", style: TextStyle(fontSize: 50, color: Colors.black, fontWeight: FontWeight.bold ),),
-          SizedBox(height: 50,),
+          SizedBox(height: 40,),
 
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Padding(
-              padding: const EdgeInsets.only(left: 250, right: 250),
+              padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
 
                 cursorColor: Colors.redAccent,
@@ -65,7 +65,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Padding(
-              padding: const EdgeInsets.only(left: 250, right: 250),
+              padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
 
                 cursorColor: Colors.redAccent,
@@ -88,7 +88,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Padding(
-              padding: const EdgeInsets.only(left: 250, right: 250),
+              padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 onChanged: (value){},
                 cursorColor: Colors.redAccent,
@@ -111,7 +111,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Padding(
-              padding: const EdgeInsets.only(left: 250, right: 250),
+              padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 onChanged: (value){},
                 cursorColor: Colors.redAccent,
@@ -153,7 +153,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => UserSignInPage()));
                 },
-                child: Text("Zaten bir hesabınız var mı? Giriş", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black54),)),
+                child: Text("Bir hesabınız var mı? Giriş", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black54),)),
           )
 
         ],

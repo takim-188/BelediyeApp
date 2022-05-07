@@ -34,7 +34,7 @@ class _UserSignInPageState extends State<UserSignInPage> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          SizedBox(height: 50,),
+          SizedBox(height: 150,),
           Center(
             child: Text("Giriş",
               style: TextStyle(
@@ -48,7 +48,7 @@ class _UserSignInPageState extends State<UserSignInPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Padding(
-              padding: const EdgeInsets.only(left: 250, right: 250),
+              padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 onChanged: (value){},
                 cursorColor: Colors.redAccent,
@@ -69,7 +69,7 @@ class _UserSignInPageState extends State<UserSignInPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Padding(
-              padding: const EdgeInsets.only(left: 250, right: 250),
+              padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 onChanged: (value){},
                 obscureText: _obscureText,
@@ -97,7 +97,7 @@ class _UserSignInPageState extends State<UserSignInPage> {
                 height: 50,
                 minWidth: 100,
                 color: Colors.blueGrey,
-                child: Text("Giriş",style: TextStyle(color: Colors.white),),
+                child: Text("Giriş Yap",style: TextStyle(color: Colors.white),),
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
 

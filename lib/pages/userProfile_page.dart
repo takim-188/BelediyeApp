@@ -64,7 +64,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 15.0),
-                      child: Text("20/02/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
+                      child: Text("07/05/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
                     ),
                   ],),
 
