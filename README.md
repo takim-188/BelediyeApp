@@ -20,9 +20,11 @@ Beyza Göncüler: Developer
 
 --Belde App--
 
+
 ## Ürün Açıklaması
 
 Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri, belediyeye  daha kolay iletmesini sağlayacak. Aynı zamanda uygulamanın hızlı yönlendirme yapabilmesi ile belediyenin bu problemleri çözmesi daha kolay ve pratik olacak.
+
 
 ## Ürün Özellikleri
 
@@ -32,9 +34,8 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 
 -Problemin fotoğrafını ekleyebilme
 
-
-
 -Problemin tanımını yapabilme
+
 
 ## Hedef Kitle
 
@@ -68,11 +69,7 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 ![Profil Sayfası Devamı](https://user-images.githubusercontent.com/104396283/167273535-41590e2f-fd81-4de5-b406-bdc69dafca35.png)
 
 
-
-
-
-
-* **Sprint Review:** 
+* **Sprint Review:** Sprint boyunca proje konusu kararlaştırılmış, uygulamanın temel hatları oluşturulmuştur. Toplantı sıkılığını artırmaya karar verilerek görev dağılımları gerçekleştirilmiştir. Uygulamanın kullanıcı sayfalarının tasarımı yapılmış ve admin için oluşturulacak olan arayüz ikinci Sprint'e bırakılmıştır. Tasarımla ilgili iyileştirmeler yapılması konusunda hemfikir olunmuştur.
 
 * **Sprint Retrospective:** 
 
