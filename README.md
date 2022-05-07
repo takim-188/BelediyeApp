@@ -44,6 +44,9 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 
 -15 - 65 yaş arası kullanıcılar
 
+## Product Backlog URL
+
+-https://trello.com/b/A4kezBb4/belediyeapp-kanban
 
 ## Sprint1
 
@@ -56,11 +59,16 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 * **Backlog düzeni ve Story seçimleri:** 
 
 
-* **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
+* **Daily Scrum:** 
+
+-https://trello.com/c/3oBOk6kF/9-toplant%C4%B1lar
 
 * **Sprint Board Update:** ???
 
-* **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü
+* **Lean Canvas Update:** 
+
+![image](https://user-images.githubusercontent.com/96997743/167272633-f2b759c0-f575-40ee-b54a-1a72aad2b635.png)
+
 
 * **Ürün Durumu:** Ürünün güncel ekran görüntüleri
 
