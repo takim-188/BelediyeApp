@@ -67,7 +67,7 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 
 * **Lean Canvas Update:** 
 
-![image](https://user-images.githubusercontent.com/96997743/167272633-f2b759c0-f575-40ee-b54a-1a72aad2b635.png)
+
 
 
 * **Ürün Durumu:** Ürünün güncel ekran görüntüleri
