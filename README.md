@@ -60,7 +60,8 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 
 * **Sprint Board Update:** ???
 
-* **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü
+* **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü  ![Lean Canvas](https://user-images.githubusercontent.com/104396283/167272790-833ca541-48f6-41bb-a8cd-9feb89a4790f.png)
+
 
 * **Ürün Durumu:** Ürünün güncel ekran görüntüleri
 
