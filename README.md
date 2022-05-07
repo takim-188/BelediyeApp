@@ -22,7 +22,7 @@ Beyza Göncüler: Developer
 
 ## Ürün Açıklaması
 
-Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri daha kolay iletmesini sağlayacak. Aynı zamanda belediyenin bu problemeleri çözerken daha kolay ve hızlı yönlendirme yapabilmesi ile işlerini kolaylaştıracak.
+Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri, belediyeye  daha kolay iletmesini sağlayacak. Aynı zamanda uygulamanın hızlı yönlendirme yapabilmesi ile belediyenin bu problemleri çözmesi daha kolay ve pratik olacak.
 
 ## Ürün Özellikleri
 
@@ -42,7 +42,7 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 
 -Duyarlı insanlar
 
--25 - 65 yaş arası kullanıcılar
+-15 - 65 yaş arası kullanıcılar
 
 
 ## Sprint1
