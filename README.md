@@ -71,6 +71,6 @@ Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri
 
 * **Sprint Review:** Sprint boyunca proje konusu kararlaştırılmış, uygulamanın temel hatları oluşturulmuştur. Toplantı sıkılığını artırmaya karar verilerek görev dağılımları gerçekleştirilmiştir. Uygulamanın kullanıcı sayfalarının tasarımı yapılmış ve admin için oluşturulacak olan arayüz ikinci Sprint'e bırakılmıştır. Tasarımla ilgili iyileştirmeler yapılması konusunda hemfikir olunmuştur. Sprint Review katılımcıları: Elif Özdemir, Mehmet Ali Yücel, Beyza Göncüler, Şevval Kapçak, Furkan Sarıkaya.
 
-* **Sprint Retrospective:** 
+* **Sprint Retrospective:** <br/>
 
 * **Diğer Notlar:**  
