@@ -46,3 +46,18 @@ Belde App uygulamamız ile insanların belediyeye bildirmesi gereken problemleri
 
 
 ## Sprint1
+
+Sprint notları:
+
+Sprint içinde tamamlanması gerekn puan:
+
+Puan tamamlama mantığı: 100 Puan
+
+Backlog düzeni ve Story seçimleri:
+
+
+Daily Scrum: Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
+
+Sprint Board Update: ???
+
+Lean Canvas Update: Proje için Lean Canvas ekran görüntüsü
