@@ -63,7 +63,8 @@ https://miro.com/welcomeonboard/VHJxOGVFNzhHRFc3VGtWdVZTVWFkdGV1ckpKQ1I1Z0ZQNnBB
 * **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır: [Daily Scrum Chats.docx](https://github.com/takim-188/BelediyeApp/files/8646095/Daily.Scrum.Chats.docx)
 
 
-* **Sprint Board Update:** Sprint Board Ekran Görüntüsü ![Sprint Board](https://user-images.githubusercontent.com/104396283/167311414-6aea15cc-c854-45fe-98ad-59b635a4589f.png)
+* **Sprint Board Update:** Sprint Board Ekran Görüntüleri ![Sprint Board](https://user-images.githubusercontent.com/104396283/167311414-6aea15cc-c854-45fe-98ad-59b635a4589f.png) ![Sprint Board Son Hali](https://user-images.githubusercontent.com/104396283/167497543-4075e455-b9bf-4bce-ba3e-a0e8cb478733.png)
+
 
 
 * **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü  ![Lean Canvas](https://user-images.githubusercontent.com/104396283/167272790-833ca541-48f6-41bb-a8cd-9feb89a4790f.png)
