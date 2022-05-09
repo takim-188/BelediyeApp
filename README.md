@@ -53,9 +53,9 @@ https://miro.com/welcomeonboard/VHJxOGVFNzhHRFc3VGtWdVZTVWFkdGV1ckpKQ1I1Z0ZQNnBB
 
 * **Sprint notları:** 
 
-* **Sprint içinde tamamlanması gereken puan:** 100 Puan
+* **Sprint içinde tamamlanması gereken puan:** 130 Puan
 
-* **Puan tamamlama mantığı:** 
+* **Puan tamamlama mantığı:** 3 Sprint için toplamda 380 puanlık Backlog olması kararlaştırılmıştır. İlk Sprint için 130 Puan olarak hesaplanmıştır.
 
 * **Backlog düzeni ve Story seçimleri:** 
 
