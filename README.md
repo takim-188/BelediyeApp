@@ -57,7 +57,9 @@ https://miro.com/welcomeonboard/VHJxOGVFNzhHRFc3VGtWdVZTVWFkdGV1ckpKQ1I1Z0ZQNnBB
 
 * **Puan tamamlama mantığı:** 3 Sprint için toplamda 380 puanlık Backlog olması kararlaştırılmıştır. İlk Sprint için 120 Puan olarak hesaplanmıştır.
 
-* **Backlog düzeni ve Story seçimleri:** 
+* **Backlog düzeni ve Story seçimleri:** Backlog düzeni planlanan ilerleme düzenine göre düzenlenmiştir.Story zorluklarına göre 10 ile 50 puan arasında puanlandırmlar yapılmıştır. Bu puanlamalar sonucunda spintlerin toplam puanı 380 olarak belirlenmiştir. İlk sprint için fonsiyonel özelliklere fazla girilmediği için 120 puana ulşamak hedeflenmiştir.
+
+** Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar Story'leri temsil etmektedir.  
 
 
 * **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır: [Daily Scrum Chats.docx](https://github.com/takim-188/BelediyeApp/files/8646095/Daily.Scrum.Chats.docx)
