@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
 import '../widgets/text_fields.dart';
 
-class FeedBackPage extends StatefulWidget {
-  FeedBackPage({Key? key, this.title}) : super(key: key);
+class HelpUsPage extends StatefulWidget {
+  HelpUsPage({Key? key, this.title}) : super(key: key);
 
   final String? title;
 
   @override
-  _FeedBackPageState createState() => _FeedBackPageState();
+  _HelpUsPageState createState() => _HelpUsPageState();
 
 }
 
-class _FeedBackPageState extends State<FeedBackPage> {
+class _HelpUsPageState extends State<HelpUsPage> {
 
   final _formKey = GlobalKey<FormState>();
   bool _enableBtn = false;
