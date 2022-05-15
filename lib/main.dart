@@ -5,14 +5,17 @@ import 'package:belediye_app/pages/home_page.dart';
 import 'package:belediye_app/pages/userProfile_page.dart';
 import 'package:belediye_app/pages/userSignIn_page.dart';
 import 'package:belediye_app/pages/userSignUp.dart';
+import 'package:belediye_app/pages/user_type_page.dart';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'constants/constants.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   await EasyLocalization.ensureInitialized();
   runApp( EasyLocalization(
     supportedLocales: AppConstant.SUPPORTED_LOCALE,
@@ -38,7 +41,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blueGrey,
       ),
-      home: HomePage(),
+      home: UserType(),
     );
   }
 }
