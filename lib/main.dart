@@ -1,5 +1,6 @@
 import 'package:belediye_app/pages/adminProfile_page.dart';
 import 'package:belediye_app/pages/adminSignIn_page.dart';
+import 'package:belediye_app/pages/helpUs_page.dart';
 import 'package:belediye_app/pages/home_page.dart';
 import 'package:belediye_app/pages/userProfile_page.dart';
 import 'package:belediye_app/pages/userSignIn_page.dart';
@@ -16,7 +17,7 @@ void main() async {
   runApp( EasyLocalization(
     supportedLocales: AppConstant.SUPPORTED_LOCALE,
     path: AppConstant.LANG_PATH,
-    fallbackLocale: Locale('tr', 'TR'),
+    //fallbackLocale: Locale('tr', 'TR'),
     child: MyApp(),
   ),
   );

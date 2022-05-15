@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_email_sender/flutter_email_sender.dart';
 import '../widgets/text_fields.dart';
 
 class FeedBackPage extends StatefulWidget {
@@ -94,7 +95,6 @@ class _FeedBackPageState extends State<FeedBackPage> {
                             ))),
                     onPressed: _enableBtn
                         ? (() async {
-                      /*
                       final Email email = Email(
                         body: messageController.text,
                         subject: subjectController.text,
@@ -102,7 +102,6 @@ class _FeedBackPageState extends State<FeedBackPage> {
                         isHTML: false,
                       );
                       await FlutterEmailSender.send(email);
-                      */
                     })
                         : null,
                     child: Text('Submit'),
@@ -115,3 +114,4 @@ class _FeedBackPageState extends State<FeedBackPage> {
   }
 
 }
+
