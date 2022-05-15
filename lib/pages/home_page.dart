@@ -1,5 +1,10 @@
 import 'dart:async';
 
+import 'package:belediye_app/pages/bildiri_page.dart';
+import 'package:belediye_app/pages/helpUs_page.dart';
+import 'package:belediye_app/pages/settings_page.dart';
+import 'package:belediye_app/pages/userProfile_page.dart';
+import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../models/slide.dart';
@@ -56,6 +61,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Text(''),
       ),

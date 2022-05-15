@@ -38,6 +38,9 @@ dependencies:
   image_cropper: ^2.0.2
   image_picker: ^0.8.5
   flutter_email_sender: ^5.1.0
+  animated_bottom_navigation_bar: ^0.3.2
+  convex_bottom_bar: ^3.0.0
+  curved_navigation_bar: ^1.0.3
 
 dev_dependencies:
   flutter_test:
