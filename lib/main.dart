@@ -6,6 +6,7 @@ import 'package:belediye_app/pages/userProfile_page.dart';
 import 'package:belediye_app/pages/userSignIn_page.dart';
 import 'package:belediye_app/pages/userSignUp.dart';
 import 'package:belediye_app/pages/user_type_page.dart';
+import 'package:belediye_app/widgets/battom_navigation_bar.dart';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blueGrey,
       ),
-      home: UserType(),
+      home: BotNav(),
     );
   }
 }
