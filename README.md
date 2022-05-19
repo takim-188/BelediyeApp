@@ -116,4 +116,4 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
   * Son Sprint, uygulama denemeleri ve iyileştirmeleri gerçekleştirilmelidir.
 
 
-* **Diğer Notlar:**
+* **Diğer Notlar:** 
