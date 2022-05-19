@@ -59,7 +59,7 @@ https://miro.com/welcomeonboard/VHJxOGVFNzhHRFc3VGtWdVZTVWFkdGV1ckpKQ1I1Z0ZQNnBB
 
 * **Backlog düzeni ve Story seçimleri:** Backlog, planlanan ilerleme düzenine göre düzenlenmiştir. Story zorluklarına göre 10 ile 50 puan arasında puanlandırmalar yapılmıştır. Bu puanlamalar sonucunda sprint'lerin toplam puanı 380 olarak belirlenmiştir. İlk sprint için fonksiyonel özelliklere fazla girilmediğinden 120 puana ulaşmak hedeflenmiştir.
 
-** Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
+Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
 
 
 * **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır: [Daily Scrum Chats.docx](https://github.com/takim-188/BelediyeApp/files/8646095/Daily.Scrum.Chats.docx)
@@ -97,7 +97,7 @@ https://miro.com/welcomeonboard/VHJxOGVFNzhHRFc3VGtWdVZTVWFkdGV1ckpKQ1I1Z0ZQNnBB
 
 * **Backlog düzeni ve Story seçimleri:** 
 
-** Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
+Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
 
 
 * **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
