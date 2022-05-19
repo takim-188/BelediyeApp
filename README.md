@@ -69,7 +69,6 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 
 
 
-
 * **Lean Canvas Update:** Proje için Lean Canvas ekran görüntüsü  ![Lean Canvas](https://user-images.githubusercontent.com/104396283/167272790-833ca541-48f6-41bb-a8cd-9feb89a4790f.png)
 
 
@@ -95,11 +94,26 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 
 * **Puan tamamlama mantığı:** 3 Sprint için toplamda 380 puanlık Backlog olması kararlaştırılmıştır. 
 
-* **Backlog düzeni ve Story seçimleri:** 
+* **Backlog düzeni ve Story seçimleri:** Backlog, planlanan ilerleme düzenine göre düzenlenmiştir. Story zorluklarına göre 10 ile 50 puan arasında puanlandırmalar yapılmıştır. Bu puanlamalar sonucunda sprint'lerin toplam puanı 380 olarak belirlenmiştir. İkinci sprint için .............. puan hedeflenmiştir.
 
 Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
 
 
 * **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
 
-* **Sprint Board Update:**
+
+* **Sprint Board Update:** Sprint Board ekran görüntüleri: ![2. Sprint Board](https://user-images.githubusercontent.com/104396283/169418919-cf1e69af-94be-47b5-bdfb-f7974ad5d509.png) ![2. Sprint Board2](https://user-images.githubusercontent.com/104396283/169418988-dd83d4d5-7f47-48af-a643-753f5f5ccc68.png)
+
+
+* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: 
+
+
+* **Sprint Review:** Sprint boyunca uygulamanın arayüz tasarımı ve kodlamasına ağırlık verilmiştir. Logo, tema renkleri gibi tasarım konuları üzerine çalışılmıştır. Görev dağılımı ağırlığı 2. Sprinte verilerek 3. Sprintin hata iyileştirmeleri ile tamamlanması kararlaştırılmıştır. Developerlar tarafından Sprint puan hesapları yapılmıştır. Sprint Review katılımcıları: Elif Özdemir, Mehmet Ali Yücel, Beyza Göncüler, Şevval Kapçak, Furkan Sarıkaya.
+
+
+* **Sprint Retrospective:** 
+  * Üçüncü Sprint için görev listesi azaltılmalı ve bu görevler 2. Sprintte tamamlanmalıdır.
+  * Son Sprint, uygulama denemeleri ve iyileştirmeleri gerçekleştirilmelidir.
+
+
+* **Diğer Notlar:**
