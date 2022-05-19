@@ -85,3 +85,21 @@ https://miro.com/welcomeonboard/VHJxOGVFNzhHRFc3VGtWdVZTVWFkdGV1ckpKQ1I1Z0ZQNnBB
   * İkinci Sprint için görev listesi ve görev dağılımları erkenden belirlenmelidir.
 
 * **Diğer Notlar:**  
+
+
+## Sprint2
+
+* **Sprint notları:** 
+
+* **Sprint içinde tamamlanması gereken puan:**
+
+* **Puan tamamlama mantığı:** 3 Sprint için toplamda 380 puanlık Backlog olması kararlaştırılmıştır. 
+
+* **Backlog düzeni ve Story seçimleri:** 
+
+** Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
+
+
+* **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
+
+* **Sprint Board Update:**
