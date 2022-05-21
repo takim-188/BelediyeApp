@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -35,6 +36,20 @@ class _ProfilePageState extends State<ProfilePage> {
   String text = "";
   String languageName = "Choose a Language";
   TextEditingController controller = TextEditingController();
+
+  File? image;
+  Future pickImage(ImageSource source) async {
+    try{
+      final image = await ImagePicker().pickImage(source: source);
+      if(image == null) return;
+
+      final imageTemporary = File(image.path);
+      setState(() => this.image = imageTemporary);
+    }on PlatformException catch (e){
+      print('Failed to pick image: $e');
+
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -74,12 +89,11 @@ class _ProfilePageState extends State<ProfilePage> {
                     child: Stack(
                       children: [
                         CircleAvatar(
-
                           foregroundColor: Colors.white,
                           backgroundColor: Colors.grey[300],
-                          child: _secilenDosya == null ? Icon(Icons.person, size: 60,): null,
+                          child: image == null ? Icon(Icons.person, size: 60,): null,
                           radius: 75,
-                          backgroundImage: _secilenDosya != null ? FileImage(_secilenDosya!): null,
+                          backgroundImage: image != null ? FileImage(image!): null,
                         ),
                         Positioned(
                             bottom: 2,
@@ -266,23 +280,21 @@ class _ProfilePageState extends State<ProfilePage> {
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget> [
-              ListTile(
-                title: Text("Galeriden Fotoğraf Seç"),
-                onTap: (){
-
-                  _secimYukle(ImageSource.gallery);
+              buildButton(
+                title: 'Gallery',
+                icon: Icons.image_outlined,
+                onClicked: () {
+                  pickImage(ImageSource.gallery);
+                  Navigator.pop(context);
+                }),
+              buildButton(
+                title: 'Camera',
+                icon: Icons.camera,
+                onClicked: () {
+                  pickImage(ImageSource.camera);
+                  Navigator.pop(context);
                 },
-
-              ),
-              ListTile(
-                title: Text("Kamerandan fotoğraf çek"),
-
-                onTap: (){
-
-                  _secimYukle(ImageSource.camera);
-
-                },
-              ),
+              )
             ],
           ),
         ));
@@ -396,3 +408,25 @@ class ProfileButton extends StatelessWidget {
     );
   }
 }
+
+Widget buildButton({
+  required String title,
+  required IconData icon,
+  required VoidCallback onClicked,
+}) =>
+    ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          minimumSize: Size.fromHeight(56),
+          primary: Colors.white,
+          onPrimary: Colors.black,
+          textStyle: TextStyle(fontSize: 20),
+          elevation: 0
+        ),
+        onPressed: onClicked,
+        child: Row(
+          children: [
+            Icon(icon, size: 28),
+            const SizedBox(width: 16),
+            Text(title),
+          ],
+        ));

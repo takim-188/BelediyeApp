@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blueGrey,
       ),
-      home: BotNav(),
+      home: BotNav()
     );
   }
 }

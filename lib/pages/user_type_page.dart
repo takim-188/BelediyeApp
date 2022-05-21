@@ -62,7 +62,7 @@ class _UserTypeState extends State<UserType> {
             ),
             label: Text("Çalışan Girişi", style: TextStyle(color: Colors.white, fontSize: height*0.04, fontWeight: FontWeight.bold),),
             onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => UserSignInPage()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => AdminSignInPage()));
 
             }, icon: Icon(Icons.east_rounded, size: height*0.05,),),
         ),

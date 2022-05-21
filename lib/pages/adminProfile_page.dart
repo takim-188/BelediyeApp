@@ -14,7 +14,7 @@ class AdminProfilePage extends StatefulWidget {
 }
 
 class _AdminProfilePageState extends State<AdminProfilePage> {
-  List<String> markets = ["TR", "US", "DE", "ES"];
+  List<String> languages = ["TR", "US", "DE", "ES"];
 
   String? selectedLanguage;
   File? _secilenDosya;
@@ -237,14 +237,15 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                     padding: const EdgeInsets.all(8.0),
                     child: Center(child: Text("Lütfen bir dil seçiniz", style: TextStyle(color: Colors.blueGrey),)),
                   ),
-                  items: markets.map((String name) {
+                  items: languages.map((String name) {
                     return DropdownMenuItem<String>(
 
                       value: name,
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(name),
-                      ),);
+                      ),
+                    );
 
                   }).toList(),
                 ),
