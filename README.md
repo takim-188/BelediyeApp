@@ -105,7 +105,12 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 * **Sprint Board Update:** Sprint Board ekran görüntüleri: ![2. Sprint Board](https://user-images.githubusercontent.com/104396283/169418919-cf1e69af-94be-47b5-bdfb-f7974ad5d509.png) ![2. Sprint Board2](https://user-images.githubusercontent.com/104396283/169418988-dd83d4d5-7f47-48af-a643-753f5f5ccc68.png)
 
 
-* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: ![Ana Ekran](https://user-images.githubusercontent.com/104396283/169714601-bad96a5d-128a-4302-b16a-7886364c42ab.jpeg) ![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169714420-ded254aa-5512-4055-985d-feaeb5a13ce9.jpeg) ![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169714523-ee2d58d7-2fcd-43e9-8045-fe9b8fad9990.jpeg) ![Profil Sayfası](https://user-images.githubusercontent.com/104396283/169714542-9b57c86b-00e9-422a-85ae-fd1c96c4fe28.jpeg) ![Yardım Sayfası](https://user-images.githubusercontent.com/104396283/169714628-15efb8cd-e052-4e9c-8ab1-d9b7523bcf77.jpeg)
+* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: 
+![Ana Ekran](https://user-images.githubusercontent.com/104396283/169714601-bad96a5d-128a-4302-b16a-7886364c42ab.jpeg) 
+![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169714420-ded254aa-5512-4055-985d-feaeb5a13ce9.jpeg) 
+![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169714523-ee2d58d7-2fcd-43e9-8045-fe9b8fad9990.jpeg) 
+![Profil Sayfası](https://user-images.githubusercontent.com/104396283/169714542-9b57c86b-00e9-422a-85ae-fd1c96c4fe28.jpeg) 
+![Yardım Sayfası](https://user-images.githubusercontent.com/104396283/169714628-15efb8cd-e052-4e9c-8ab1-d9b7523bcf77.jpeg)
 
 
 
