@@ -105,7 +105,8 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 * **Sprint Board Update:** Sprint Board ekran görüntüleri: ![2. Sprint Board](https://user-images.githubusercontent.com/104396283/169418919-cf1e69af-94be-47b5-bdfb-f7974ad5d509.png) ![2. Sprint Board2](https://user-images.githubusercontent.com/104396283/169418988-dd83d4d5-7f47-48af-a643-753f5f5ccc68.png)
 
 
-* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: *
+* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: 
+* 
 ![Ana Sayfa](https://user-images.githubusercontent.com/104396283/169715601-4881a4fb-3a87-4b45-a538-387c44fadc4d.png) ![Profil Sayfası](https://user-images.githubusercontent.com/104396283/169715625-6bb9e2cb-fd2b-41b2-81e3-52b2ab468cbf.png) ![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169715645-2bb4fa0a-92f2-4e4f-8e5f-3463e5acff27.png) ![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169715656-bbc2dbcf-fd2b-4f9f-9f4a-061904125c29.png) ![Yardım Sayfası](https://user-images.githubusercontent.com/104396283/169715676-efacc591-1f14-42e4-a40b-06f5c6c9719a.png)
 
 
