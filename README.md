@@ -90,11 +90,11 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 
 * **Sprint notları:** 
 
-* **Sprint içinde tamamlanması gereken puan:**
+* **Sprint içinde tamamlanması gereken puan:** 100 Puan
 
-* **Puan tamamlama mantığı:** 3 Sprint için toplamda 380 puanlık Backlog olması kararlaştırılmıştır. 
+* **Puan tamamlama mantığı:** 3 Sprint için toplamda 380 puanlık Backlog olması kararlaştırılmıştır. Küççük görevler için puanlar azar azar dağıtılmış ve Toplam ğuandan kalan büyük pay 3. Sprint için ayrılmıştır.
 
-* **Backlog düzeni ve Story seçimleri:** Backlog, planlanan ilerleme düzenine göre düzenlenmiştir. Story zorluklarına göre 10 ile 50 puan arasında puanlandırmalar yapılmıştır. Bu puanlamalar sonucunda sprint'lerin toplam puanı 380 olarak belirlenmiştir. İkinci sprint için .............. puan hedeflenmiştir.
+* **Backlog düzeni ve Story seçimleri:** Backlog, planlanan ilerleme düzenine göre düzenlenmiştir. Story zorluklarına göre 10 ile 50 puan arasında puanlandırmalar yapılmıştır. Bu puanlamalar sonucunda sprint'lerin toplam puanı 380 olarak belirlenmiştir. İkinci sprint için 100 puan hedeflenmiştir.
 
 Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
 
