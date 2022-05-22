@@ -99,13 +99,18 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmızı kartlar yapılacak işleri gösterirken, mavi kartlar story'leri temsil etmektedir.  
 
 
-* **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır:
+* **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır: 
 
 
 * **Sprint Board Update:** Sprint Board ekran görüntüleri: ![2. Sprint Board](https://user-images.githubusercontent.com/104396283/169418919-cf1e69af-94be-47b5-bdfb-f7974ad5d509.png) ![2. Sprint Board2](https://user-images.githubusercontent.com/104396283/169418988-dd83d4d5-7f47-48af-a643-753f5f5ccc68.png)
 
 
-* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: 
+* **Ürün Durumu:** Ürünün güncel ekran görüntüleri: ![Ana Ekran](https://user-images.githubusercontent.com/104396283/169714601-bad96a5d-128a-4302-b16a-7886364c42ab.jpeg) ![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169714420-ded254aa-5512-4055-985d-feaeb5a13ce9.jpeg) ![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169714523-ee2d58d7-2fcd-43e9-8045-fe9b8fad9990.jpeg) ![Profil Sayfası](https://user-images.githubusercontent.com/104396283/169714542-9b57c86b-00e9-422a-85ae-fd1c96c4fe28.jpeg) ![Yardım Sayfası](https://user-images.githubusercontent.com/104396283/169714628-15efb8cd-e052-4e9c-8ab1-d9b7523bcf77.jpeg)
+
+
+
+
+
 
 
 * **Sprint Review:** Sprint boyunca uygulamanın arayüz tasarımı ve kodlamasına ağırlık verilmiştir. Logo, tema renkleri gibi tasarım konuları üzerine çalışılmıştır. Görev dağılımı ağırlığı 2. Sprinte verilerek 3. Sprintin hata iyileştirmeleri ile tamamlanması kararlaştırılmıştır. Developerlar tarafından Sprint puan hesapları yapılmıştır. Sprint Review katılımcıları: Elif Özdemir, Mehmet Ali Yücel, Beyza Göncüler, Şevval Kapçak, Furkan Sarıkaya.
