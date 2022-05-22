@@ -106,7 +106,7 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 
 
 * **Ürün Durumu:** Ürünün güncel ekran görüntüleri: 
-* 
+ 
 ![Ana Ekran](https://user-images.githubusercontent.com/104396283/169714601-bad96a5d-128a-4302-b16a-7886364c42ab.jpeg) 
 ![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169714420-ded254aa-5512-4055-985d-feaeb5a13ce9.jpeg) 
 ![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169714523-ee2d58d7-2fcd-43e9-8045-fe9b8fad9990.jpeg) 
