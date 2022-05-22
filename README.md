@@ -9,7 +9,7 @@ Elif Özdemir: Product Owner
 
 Mehmet Ali Yücel: Scrum Master
 
-Furkan Sarıkaya: Developer
+Furkan Sarıkaya : Developer
 
 Şevval Kapçak: Developer
 
