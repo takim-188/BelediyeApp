@@ -18,7 +18,7 @@ Beyza Göncüler: Developer
 
 ## Ürün İsmi
 
---Belde App--
+--BeldApp--
 
 
 ## Ürün Açıklaması
