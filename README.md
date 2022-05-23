@@ -108,7 +108,9 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 
 * **Ürün Durumu:** Ürünün güncel ekran görüntüleri  
 * 
-![Ana Sayfa](https://user-images.githubusercontent.com/104396283/169715601-4881a4fb-3a87-4b45-a538-387c44fadc4d.png) ![Profil Sayfası](https://user-images.githubusercontent.com/104396283/169715625-6bb9e2cb-fd2b-41b2-81e3-52b2ab468cbf.png) ![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169715645-2bb4fa0a-92f2-4e4f-8e5f-3463e5acff27.png) ![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169715656-bbc2dbcf-fd2b-4f9f-9f4a-061904125c29.png) ![Yardım Sayfası](https://user-images.githubusercontent.com/104396283/169715676-efacc591-1f14-42e4-a40b-06f5c6c9719a.png)
+![Ana Sayfa](https://user-images.githubusercontent.com/104396283/169715601-4881a4fb-3a87-4b45-a538-387c44fadc4d.png) ![Profil Sayfası](https://user-images.githubusercontent.com/104396283/169715625-6bb9e2cb-fd2b-41b2-81e3-52b2ab468cbf.png) ![Şikayet Sayfası](https://user-images.githubusercontent.com/104396283/169715645-2bb4fa0a-92f2-4e4f-8e5f-3463e5acff27.png) ![Ayarlar Sayfası](https://user-images.githubusercontent.com/104396283/169715656-bbc2dbcf-fd2b-4f9f-9f4a-061904125c29.png) ![Yardım Sayfası](https://user-images.githubusercontent.com/104396283/169715676-efacc591-1f14-42e4-a40b-06f5c6c9719a.png)![Android Emulator - Pixel_3a_API_30_5554 23 05 2022 22_49_59](https://user-images.githubusercontent.com/96997743/169895288-e1813070-6be9-4bf8-acab-9e81c57f19cb.png)
+
+
 
 
 * **Sprint Review:** Sprint boyunca uygulamanın arayüz tasarımı ve kodlamasına ağırlık verilmiştir. Logo, tema renkleri gibi tasarım konuları üzerine çalışılmıştır. Görev dağılımı ağırlığı 2. Sprinte verilerek 3. Sprintin hata iyileştirmeleri ile tamamlanması kararlaştırılmıştır. Developerlar tarafından Sprint puan hesapları yapılmıştır. Sprint Review katılımcıları: Elif Özdemir, Mehmet Ali Yücel, Beyza Göncüler, Şevval Kapçak, Furkan Sarıkaya.
