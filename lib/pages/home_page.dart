@@ -1,12 +1,6 @@
 import 'dart:async';
-
-import 'package:belediye_app/pages/bildiri_page.dart';
-import 'package:belediye_app/pages/helpUs_page.dart';
-import 'package:belediye_app/pages/settings_page.dart';
-import 'package:belediye_app/pages/userProfile_page.dart';
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
+import 'package:belediye_app/pages/user_type_page.dart';
 import 'package:flutter/material.dart';
-
 import '../models/slide.dart';
 import '../widgets/slide_dots.dart';
 import '../widgets/slide_item.dart';
@@ -14,12 +8,10 @@ import '../widgets/slide_item.dart';
 class HomePage extends StatefulWidget {
   HomePage({Key? key, this.title}) : super(key: key);
   final String? title;
-
   @override
   _HomePageState createState() => _HomePageState();
 
 }
-
 
 class _HomePageState extends State<HomePage> {
   int _currentPage = 0;
@@ -57,16 +49,14 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       appBar: AppBar(
-        title: Text(''),
+        backgroundColor: Colors.orange,
+        title: Text('Anasayfa'),
       ),
       body: Container(
-        color: Colors.white,
         child: Padding(
           padding: const EdgeInsets.all(50),
           child: Column(
@@ -75,7 +65,7 @@ class _HomePageState extends State<HomePage> {
               DropdownButtonFormField(
                   decoration:InputDecoration(
                     border: OutlineInputBorder(
-                      borderSide: BorderSide(width:1,color:Colors.deepOrange),
+                      borderSide: BorderSide(width:1,color:Colors.orange),
                     ),
                   ),
                   //),
@@ -124,8 +114,6 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-
-
               SizedBox(height: 20,),
 
               Column(
@@ -134,13 +122,14 @@ class _HomePageState extends State<HomePage> {
                   FlatButton(
                     onPressed: () {
 
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => UserType()));
                     },
                     child: Text('Giriş Yap', style: TextStyle( fontSize: 18, color: Colors.white)
                       ,),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    color: Theme.of(context).primaryColor,
+                    color: Colors.orange,
                     padding: const EdgeInsets.all(15),
 
                   )

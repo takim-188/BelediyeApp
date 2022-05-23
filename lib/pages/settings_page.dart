@@ -1,4 +1,8 @@
+import 'package:belediye_app/widgets/change_theme_button.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../provider/theme_provider.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({Key? key}) : super(key: key);
@@ -10,12 +14,27 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
+
+    final text = Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
+    ? 'DarkTheme'
+        : 'LightTheme';
     return Scaffold(
       appBar: AppBar(
-        title: Text("Ayarlar"),
+        backgroundColor: Colors.orange,
+        title: Text(""),
+        actions: [
+          ChangeThemeButtonWidget(),
+        ],
 
       ),
-      backgroundColor: Colors.white,
+      body: Center(
+        child: Text('Hello $text!',
+          style: TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.bold,
+          ),),
+
+      ),
     );
   }
 }

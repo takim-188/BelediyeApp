@@ -6,12 +6,10 @@ class HelpUsPage extends StatefulWidget {
   HelpUsPage({Key? key, this.title}) : super(key: key);
 
   final String? title;
-
   @override
   _HelpUsPageState createState() => _HelpUsPageState();
 
 }
-
 class _HelpUsPageState extends State<HelpUsPage> {
 
   final _formKey = GlobalKey<FormState>();
@@ -69,7 +67,7 @@ class _HelpUsPageState extends State<HelpUsPage> {
                     }
                     return null;
                   }),
-                  maxLines: null,
+                  maxLines: 3,
                   type: TextInputType.multiline),
               Padding(
                   padding: EdgeInsets.all(20.0),

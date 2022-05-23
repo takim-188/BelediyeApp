@@ -1,11 +1,10 @@
 import 'dart:io';
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../constants/constants.dart';
+
 
 class ProfilePage extends StatefulWidget {
   ProfilePage({Key? key}) : super(key: key);
@@ -13,9 +12,8 @@ class ProfilePage extends StatefulWidget {
   @override
   State<ProfilePage> createState() => _ProfilePageState();
 }
-
 class _ProfilePageState extends State<ProfilePage> {
-  List<String> markets = ["TR", "US", "DE", "ES"];
+
 
   String? selectedLanguage;
   File? _secilenDosya;
@@ -28,6 +26,7 @@ class _ProfilePageState extends State<ProfilePage> {
       _isEditOn = !_isEditOn;
     });
   }
+
   void _toggle2() {
     setState(() {
       _isEditOn2 = !_isEditOn2;
@@ -62,14 +61,6 @@ class _ProfilePageState extends State<ProfilePage> {
         children: <Widget>[
           Container(
             height: 250,
-            //decoration: BoxDecoration(
-            //gradient: LinearGradient(
-            //colors: [Colors.black12, Colors.black12],
-            //begin: Alignment.centerLeft,
-            //end: Alignment.centerRight,
-            //stops: [0.4, 0.7],
-            //),
-            //),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -79,12 +70,11 @@ class _ProfilePageState extends State<ProfilePage> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 15.0),
-                      child: Text("07/05/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
+                      child: Text("22/05/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
                     ),
                   ],),
 
                 Container(
-
                   child: Center(
                     child: Stack(
                       children: [
@@ -108,13 +98,12 @@ class _ProfilePageState extends State<ProfilePage> {
                               ),
                               child: IconButton(
                                 onPressed: (){
-
                                   _showPhoto(context);
                                 },
                                 icon: Center(
                                   child: Icon(Icons.camera_alt_rounded,
                                     color: Colors.white,),
-                                ),  ),
+                                ),),
 
                             )
                         )],
@@ -194,79 +183,23 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20.0, right: 20.0),
-            child: Card(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20)),
-              elevation: 0,
-              color:  Colors.white,
-              child: /*MaterialButton(
-                minWidth: 30,
-                height: height*0.08 ,
-                color: Colors.redAccent[400],
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-
-                        Radius.circular(20))
-                ),
-                child: Text(languageName, style: TextStyle(color: Colors.white, fontSize: 18)),
-                onPressed: (){
-                  _showLanguages(context);
-
-
-                },
-              )*/
-
-              Card(
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                    side: BorderSide(color: Colors.blueGrey, width: 1.5,style: BorderStyle.solid)
-                ),
-                child: DropdownButton(
-
-                  borderRadius: BorderRadius.zero,
-                  elevation: 50,
-                  dropdownColor: Colors.black26,
-                  value: selectedLanguage,
-                  onTap: (){
-                    if(selectedLanguage=="ES"){
-                      context.setLocale(AppConstant.ES_LOCALE);
-                    }
-                    else if(selectedLanguage=="TR"){
-                      context.setLocale(AppConstant.TR_LOCALE);
-                    }
-
-                    else if(selectedLanguage=="DE"){
-                      context.setLocale(AppConstant.DE_LOCALE);
-                    }
-
-                  },
-                  onChanged: (value){
-                    setState((){
-                      selectedLanguage = value.toString();
-                    });
-                  },
-                  hint: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Center(child: Text("Lütfen bir dil seçiniz", style: TextStyle(color: Colors.blueGrey),)),
-                  ),
-                  items: markets.map((String name) {
-                    return DropdownMenuItem<String>(
-
-                      value: name,
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(name),
-                      ),);
-
-                  }).toList(),
-                ),
-              ),
-            ),
-          ),
           SizedBox(height: height*0.01,),
 
+          Padding(
+            padding: EdgeInsets.only(left: width* 0.2, right: width*0.2),
+            child: FlatButton(
+              onPressed: () {
+              },
+              child: Text('Geçmiş Bildirilerim', style: TextStyle( fontSize: 18, color: Colors.white)
+                ,),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15),
+              ),
+              color: Color(0xFFF2A649),
+              padding: const EdgeInsets.all(15),
+
+            ),
+          )
 
         ],
       ),
@@ -281,12 +214,12 @@ class _ProfilePageState extends State<ProfilePage> {
             mainAxisSize: MainAxisSize.min,
             children: <Widget> [
               buildButton(
-                title: 'Gallery',
-                icon: Icons.image_outlined,
-                onClicked: () {
-                  pickImage(ImageSource.gallery);
-                  Navigator.pop(context);
-                }),
+                  title: 'Gallery',
+                  icon: Icons.image_outlined,
+                  onClicked: () {
+                    pickImage(ImageSource.gallery);
+                    Navigator.pop(context);
+                  }),
               buildButton(
                 title: 'Camera',
                 icon: Icons.camera,
@@ -300,61 +233,6 @@ class _ProfilePageState extends State<ProfilePage> {
         ));
   }
 
-  void _showLanguages(BuildContext context) {
-
-    showDialog(context: context,
-        builder: (context) => AlertDialog(
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget> [
-              ListTile(
-                title: Text("TR"),
-                onTap: (){
-                  context.setLocale(AppConstant.TR_LOCALE);
-                  Navigator.pop(context);
-                  languageName = "TR";
-                },
-
-              ),
-              ListTile(
-                title: Text("DE"),
-
-                onTap: (){
-
-
-                  context.setLocale(AppConstant.DE_LOCALE);
-                  Navigator.pop(context);
-                  languageName = "DE";
-
-                },
-              ),
-              ListTile(
-                title: Text("ES"),
-
-                onTap: (){
-
-                  context.setLocale(AppConstant.ES_LOCALE);
-                  Navigator.pop(context);
-                  languageName = "ES";
-
-                },
-              ),
-              ListTile(
-                title: Text("EN"),
-
-                onTap: (){
-                  Navigator.pop(context);
-                  languageName = "EN";
-
-
-                },
-
-              ),
-
-            ],
-          ),
-        ));
-  }
 
   void _secimYukle(ImageSource source) async{
     final picker = ImagePicker();
@@ -416,11 +294,11 @@ Widget buildButton({
 }) =>
     ElevatedButton(
         style: ElevatedButton.styleFrom(
-          minimumSize: Size.fromHeight(56),
-          primary: Colors.white,
-          onPrimary: Colors.black,
-          textStyle: TextStyle(fontSize: 20),
-          elevation: 0
+            minimumSize: Size.fromHeight(56),
+            primary: Colors.white,
+            onPrimary: Colors.black,
+            textStyle: TextStyle(fontSize: 20),
+            elevation: 0
         ),
         onPressed: onClicked,
         child: Row(
