@@ -23,7 +23,7 @@ Beyza Göncüler: Developer
 
 ## Ürün Açıklaması
 
-Belde App uygulamamız ile insanların mahallelerinde yaşadıkları problemleri, belediyeye  daha kolay iletmesini sağlayacak. Aynı zamanda uygulamanın hızlı yönlendirme yapabilmesi ile belediyenin bu problemleri çözmesi daha kolay ve pratik olacak.
+BeldApp uygulamamız ile insanların mahallelerinde yaşadıkları problemleri, belediyeye  daha kolay iletmesini sağlayacak. Aynı zamanda uygulamanın hızlı yönlendirme yapabilmesi ile belediyenin bu problemleri çözmesi daha kolay ve pratik olacak.
 
 
 ## Ürün Özellikleri
