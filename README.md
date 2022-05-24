@@ -100,6 +100,7 @@ Story'ler yapılacak işlere bölünmüştür. Miro Board'da gözüken kırmız�
 
 
 * **Daily Scrum:** Daily Scrum toplantıları, ihitiyaca uygun olarak hem Google Meetings hem de WhatsApp üzerinden gerçekleşmektedir. Toplantılarla ilgili görseller Readme dosyası içinde paylaşılmaktadır: 
+* https://1drv.ms/w/s!Aj8K0XziQzbfgvsdJvgzpCBWw_6pzg?e=KIg6Ra
 
 
 * **Sprint Board Update:** Sprint Board ekran görüntüleri: ![2. Sprint Board](https://user-images.githubusercontent.com/104396283/169418919-cf1e69af-94be-47b5-bdfb-f7974ad5d509.png) ![2. Sprint Board2](https://user-images.githubusercontent.com/104396283/169418988-dd83d4d5-7f47-48af-a643-753f5f5ccc68.png)![2. Sprint Board]![ScrumBootcamp, Online Whiteboard for Visual Collaboration - Google Chrome 23 05 2022 22_38_29](https://user-images.githubusercontent.com/96997743/169893741-9a548c72-4e58-442f-b3d7-0af6309a1409.png)
