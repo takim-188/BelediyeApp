@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641428218957",
+    "project_id": "beldapp-e9bfa",
+    "storage_bucket": "beldapp-e9bfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641428218957:android:493562ff9a26bb97f8a804",
+        "android_client_info": {
+          "package_name": "com.example.belediye_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641428218957-c800f325krledehasdva735jv9ldrrso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIAuf1q7xBoaKZzESCvQWZHuMn2wBoERU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641428218957-c800f325krledehasdva735jv9ldrrso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

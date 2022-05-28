@@ -1,6 +1,7 @@
 import 'package:belediye_app/provider/theme_provider.dart';
 import 'package:belediye_app/widgets/battom_navigation_bar.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -9,13 +10,9 @@ import 'constants/constants.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-  await EasyLocalization.ensureInitialized();
-  runApp( EasyLocalization(
-    supportedLocales: AppConstant.SUPPORTED_LOCALE,
-    path: AppConstant.LANG_PATH,
-    //fallbackLocale: Locale('tr', 'TR'),
-    child: MyApp(),
-  ),
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp( MyApp(),
   );
 }
 
