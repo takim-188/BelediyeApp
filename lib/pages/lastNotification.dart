@@ -12,7 +12,7 @@ class _LastNotificationState extends State<LastNotification> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff3b42bf),
+        backgroundColor: Color(0xFF00D9D2),
         title: Text("Geçmiş Bildiriler Detay Sayfası"),
       ),
       body: FittedBox(
