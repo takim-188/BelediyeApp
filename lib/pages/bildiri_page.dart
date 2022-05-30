@@ -79,7 +79,6 @@ class _BildiriPageState extends State<BildiriPage> {
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff3b42bf),
         title: Text("Bildiri Sayfası"),
       ),
       body: Container(
@@ -109,7 +108,6 @@ class _BildiriPageState extends State<BildiriPage> {
                           );
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.grey[350],
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(12),
                           ),
@@ -148,7 +146,6 @@ class _BildiriPageState extends State<BildiriPage> {
                     minLines: 2,
                     maxLines: 7,
                     onChanged: (value){},
-                    cursorColor: Colors.blueGrey,
                     keyboardType: TextInputType.text,
                     //controller: passwordController2 ,
                     decoration: InputDecoration(
@@ -162,7 +159,7 @@ class _BildiriPageState extends State<BildiriPage> {
             Card(
               shape: RoundedRectangleBorder(
                 side: BorderSide(
-                    color: Colors.grey, style: BorderStyle.solid, width: 2),
+                     style: BorderStyle.solid, width: 2),
               ),
               elevation: 10,
               child: FutureBuilder(
@@ -179,7 +176,7 @@ class _BildiriPageState extends State<BildiriPage> {
                         child: Card(
                           shape: RoundedRectangleBorder(
                             side: BorderSide(
-                                color: Colors.grey, style: BorderStyle.solid, width: 1),
+                                style: BorderStyle.solid, width: 1),
                           ),
                           elevation: 10,
                           child: FutureBuilder(
@@ -212,7 +209,7 @@ class _BildiriPageState extends State<BildiriPage> {
                                             builder: (context) => Icon(
                                               Icons.person_pin_circle_sharp,
                                               size: height * 0.03,
-                                              color: Colors.blue,
+
                                             )),
                                       ])
                                     ],
@@ -233,12 +230,11 @@ class _BildiriPageState extends State<BildiriPage> {
               child: FlatButton(
                 onPressed: () {
                 },
-                child: Text('Bildir', style: TextStyle( fontSize: 18, color: Colors.white)
+                child: Text('Bildir', style: TextStyle( fontSize: 18)
                   ,),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15),
                 ),
-                color: Color(0xFFF2A649),
                 padding: const EdgeInsets.all(15),
 
               ),

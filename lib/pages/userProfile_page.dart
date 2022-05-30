@@ -70,7 +70,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 15.0),
-                      child: Text("22/05/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
+                      child: Text("22/05/2022", style: TextStyle(fontSize: 20),),
                     ),
                   ],),
 
@@ -79,8 +79,6 @@ class _ProfilePageState extends State<ProfilePage> {
                     child: Stack(
                       children: [
                         CircleAvatar(
-                          foregroundColor: Colors.white,
-                          backgroundColor: Colors.grey[300],
                           child: image == null ? Icon(Icons.person, size: 60,): null,
                           radius: 75,
                           backgroundImage: image != null ? FileImage(image!): null,
@@ -93,7 +91,6 @@ class _ProfilePageState extends State<ProfilePage> {
                               width: width*0.09,
                               height: width*0.09,
                               decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
                                   borderRadius: BorderRadius.circular(50)
                               ),
                               child: IconButton(
@@ -102,7 +99,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                 },
                                 icon: Center(
                                   child: Icon(Icons.camera_alt_rounded,
-                                    color: Colors.white,),
+                                  ),
                                 ),),
 
                             )
@@ -117,7 +114,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
-                    Text(text, style: TextStyle(fontSize: 24, color: Colors.blueGrey),
+                    Text(text, style: TextStyle(fontSize: 24),
                     )],
                 ),
 
@@ -130,17 +127,14 @@ class _ProfilePageState extends State<ProfilePage> {
             child: TextField(
               controller: controller,
               onChanged: (value){},
-              cursorColor: Colors.blueGrey,
-
               keyboardType: TextInputType.text,
               readOnly: _isEditOn,
               //controller: passwordController2 ,
               decoration: InputDecoration(
 
-                prefixIconColor: Colors.blueGrey,
                 prefixIcon: Icon(Icons.person, ),
                 labelText: "Ad Soyad",
-                suffixIcon: IconButton(icon: _isEditOn ? Icon(Icons.edit, color: Colors.blueGrey,) : Icon(Icons.done, color: Colors.blueGrey,),
+                suffixIcon: IconButton(icon: _isEditOn ? Icon(Icons.edit) : Icon(Icons.done),
                   onPressed: (){
                     setState(() {
                       _toggle();
@@ -164,7 +158,6 @@ class _ProfilePageState extends State<ProfilePage> {
               maxLines: 5,
               minLines: 2,
               onChanged: (value){},
-              cursorColor: Colors.blueGrey,
 
               keyboardType: TextInputType.text,
               readOnly: _isEditOn2,
@@ -173,8 +166,7 @@ class _ProfilePageState extends State<ProfilePage> {
 
                 labelText: "Telefon Numarası",
                 prefixIcon: Icon(Icons.phone),
-                prefixIconColor: Colors.blueGrey,
-                suffixIcon: IconButton(icon: _isEditOn2 ? Icon(Icons.edit, color: Colors.blueGrey,) : Icon(Icons.done, color: Colors.blueGrey,), onPressed: _toggle2,),
+                suffixIcon: IconButton(icon: _isEditOn2 ? Icon(Icons.edit) : Icon(Icons.done), onPressed: _toggle2,),
 
                 //border: OutlineInputBorder(
                 //  borderRadius: BorderRadius.circular(20),
@@ -190,12 +182,11 @@ class _ProfilePageState extends State<ProfilePage> {
             child: FlatButton(
               onPressed: () {
               },
-              child: Text('Geçmiş Bildirilerim', style: TextStyle( fontSize: 18, color: Colors.white)
+              child: Text('Geçmiş Bildirilerim', style: TextStyle( fontSize: 18)
                 ,),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),
               ),
-              color: Color(0xFFF2A649),
               padding: const EdgeInsets.all(15),
 
             ),
@@ -277,11 +268,10 @@ class ProfileButton extends StatelessWidget {
           elevation: 10,
           minWidth: 30,
           height: height*0.08 ,
-          color: Colors.blueGrey,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(20))
           ),
-          child: Text(title, style: TextStyle(color: Colors.white, fontSize: 18),),
+          child: Text(title, style: TextStyle(fontSize: 18),),
           onPressed: (){}),
     );
   }
@@ -295,8 +285,6 @@ Widget buildButton({
     ElevatedButton(
         style: ElevatedButton.styleFrom(
             minimumSize: Size.fromHeight(56),
-            primary: Colors.white,
-            onPrimary: Colors.black,
             textStyle: TextStyle(fontSize: 20),
             elevation: 0
         ),

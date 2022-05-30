@@ -20,7 +20,6 @@ class _SettingsPageState extends State<SettingsPage> {
         : 'LightTheme';
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
         title: Text(""),
         actions: [
           ChangeThemeButtonWidget(),

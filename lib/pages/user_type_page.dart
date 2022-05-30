@@ -30,15 +30,12 @@ class _UserTypeState extends State<UserType> {
             height: height*0.06,
             child: ElevatedButton.icon(
               style:ElevatedButton.styleFrom(
-                primary: Colors.blueGrey,
-                onPrimary: Colors.white,
-                shadowColor: Colors.grey,
                 elevation: 10,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(32.0)),
                 minimumSize: Size(100, 40), //////// HERE
               ),
-              label: Text("Kullanıcı Girişi", style: TextStyle(color: Colors.white, fontSize: height*0.04, fontWeight: FontWeight.bold),),
+              label: Text("Kullanıcı Girişi", style: TextStyle(fontSize: height*0.04, fontWeight: FontWeight.bold),),
               onPressed: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context) => UserSignInPage()));
 
@@ -52,15 +49,12 @@ class _UserTypeState extends State<UserType> {
           height: height*0.06,
           child: ElevatedButton.icon(
             style:ElevatedButton.styleFrom(
-              primary: Colors.blueGrey,
-              onPrimary: Colors.white,
-              shadowColor: Colors.grey,
               elevation: 10,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(32.0)),
               minimumSize: Size(100, 40), //////// HERE
             ),
-            label: Text("Çalışan Girişi", style: TextStyle(color: Colors.white, fontSize: height*0.04, fontWeight: FontWeight.bold),),
+            label: Text("Çalışan Girişi", style: TextStyle(fontSize: height*0.04, fontWeight: FontWeight.bold),),
             onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) => AdminSignInPage()));
 

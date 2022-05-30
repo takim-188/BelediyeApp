@@ -33,11 +33,11 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
-      backgroundColor: Colors.white,
+
       body: Column(
         children: [
           SizedBox(height: 80,),
-          Text("Kaydol", style: TextStyle(fontSize: 50, color: Colors.black, fontWeight: FontWeight.bold ),),
+          Text("Kaydol", style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold ),),
           SizedBox(height: 40,),
 
           Padding(
@@ -46,7 +46,6 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
               padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
 
-                cursorColor: Colors.redAccent,
                 keyboardType: TextInputType.text,
                 controller: controller ,
                 onChanged: (value){},
@@ -56,7 +55,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
                     hintText: "Kullanıcı Adı",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
-                        borderSide: BorderSide(color: Colors.redAccent)
+                        borderSide: BorderSide()
                     )
                 ),
               ),
@@ -67,8 +66,6 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
             child: Padding(
               padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
-
-                cursorColor: Colors.redAccent,
                 keyboardType: TextInputType.text,
                 controller: phoneController ,
                 onChanged: (value){},
@@ -78,7 +75,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
                     hintText: "Telefon Numarası",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
-                        borderSide: BorderSide(color: Colors.redAccent)
+                        borderSide: BorderSide()
                     )
                 ),
               ),
@@ -91,7 +88,6 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
               padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 onChanged: (value){},
-                cursorColor: Colors.redAccent,
                 keyboardType: TextInputType.text,
                 obscureText: _obscureText,
                 controller: passwordController ,
@@ -102,7 +98,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
                     hintText: "Parola",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
-                        borderSide: BorderSide(color: Colors.redAccent)
+                        borderSide: BorderSide()
                     )
                 ),
               ),
@@ -114,7 +110,6 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
               padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 onChanged: (value){},
-                cursorColor: Colors.redAccent,
                 keyboardType: TextInputType.text,
                 obscureText: _obscureText,
                 controller: passwordController ,
@@ -125,7 +120,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
                     hintText: "Tekrar Parola",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
-                        borderSide: BorderSide(color: Colors.redAccent)
+                        borderSide: BorderSide()
                     )
                 ),
               ),
@@ -138,8 +133,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
             child: MaterialButton(
                 height: 50,
                 minWidth: 100,
-                color: Colors.blueGrey,
-                child: Text("Kaydol",style: TextStyle(color: Colors.white),),
+                child: Text("Kaydol"),
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => UserSignInPage()));
 
@@ -153,7 +147,7 @@ class _UserSignUpPageState extends State<UserSignUpPage> {
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => UserSignInPage()));
                 },
-                child: Text("Bir hesabınız var mı? Giriş", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black54),)),
+                child: Text("Bir hesabınız var mı? Giriş", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),)),
           )
 
         ],

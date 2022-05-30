@@ -14,7 +14,7 @@ class _LastNotificationState extends State<LastNotification> {
       appBar: AppBar(
         title: Text("Geçmiş Bildiriler DetailPage"),
       ),
-      backgroundColor: Colors.white,
+
     );
   }
 }

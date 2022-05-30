@@ -64,7 +64,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 15.0),
-                      child: Text("07/05/2022", style: TextStyle(color: Colors.blueGrey, fontSize: 20),),
+                      child: Text("07/05/2022", style: TextStyle(fontSize: 20),),
                     ),
                   ],),
 
@@ -89,7 +89,6 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                               width: width*0.09,
                               height: width*0.09,
                               decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
                                   borderRadius: BorderRadius.circular(50)
                               ),
                               child: IconButton(
@@ -99,7 +98,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                                 },
                                 icon: Center(
                                   child: Icon(Icons.camera_alt_rounded,
-                                    color: Colors.white,),
+                                   ),
                                 ),  ),
 
                             )
@@ -134,10 +133,9 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
               //controller: passwordController2 ,
               decoration: InputDecoration(
 
-                prefixIconColor: Colors.blueGrey,
                 prefixIcon: Icon(Icons.person, ),
                 labelText: "Ad Soyad",
-                suffixIcon: IconButton(icon: _isEditOn ? Icon(Icons.edit, color: Colors.blueGrey,) : Icon(Icons.done, color: Colors.blueGrey,),
+                suffixIcon: IconButton(icon: _isEditOn ? Icon(Icons.edit) : Icon(Icons.done),
                   onPressed: (){
                     setState(() {
                       _toggle();
@@ -170,8 +168,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
 
                 labelText: "Çalışma Alanı",
                 prefixIcon: Icon(Icons.work_outline),
-                prefixIconColor: Colors.blueGrey,
-                suffixIcon: IconButton(icon: _isEditOn2 ? Icon(Icons.edit, color: Colors.blueGrey,) : Icon(Icons.done, color: Colors.blueGrey,), onPressed: _toggle2,),
+                suffixIcon: IconButton(icon: _isEditOn2 ? Icon(Icons.edit) : Icon(Icons.done), onPressed: _toggle2,),
 
                 //border: OutlineInputBorder(
                 //  borderRadius: BorderRadius.circular(20),
@@ -186,7 +183,6 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
               elevation: 0,
-              color:  Colors.white,
               child: /*MaterialButton(
                 minWidth: 30,
                 height: height*0.08 ,
@@ -207,13 +203,12 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
               Card(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
-                    side: BorderSide(color: Colors.blueGrey, width: 1.5,style: BorderStyle.solid)
+                    side: BorderSide( width: 1.5,style: BorderStyle.solid)
                 ),
                 child: DropdownButton(
 
                   borderRadius: BorderRadius.zero,
                   elevation: 50,
-                  dropdownColor: Colors.black26,
                   value: selectedLanguage,
                   onTap: (){
                     if(selectedLanguage=="ES"){
@@ -235,7 +230,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                   },
                   hint: Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Center(child: Text("Lütfen bir dil seçiniz", style: TextStyle(color: Colors.blueGrey),)),
+                    child: Center(child: Text("Lütfen bir dil seçiniz")),
                   ),
                   items: languages.map((String name) {
                     return DropdownMenuItem<String>(
@@ -388,11 +383,10 @@ class ProfileButton extends StatelessWidget {
           elevation: 10,
           minWidth: 30,
           height: height*0.08 ,
-          color: Colors.blueGrey,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(20))
           ),
-          child: Text(title, style: TextStyle(color: Colors.white, fontSize: 18),),
+          child: Text(title, style: TextStyle(fontSize: 18),),
           onPressed: (){}),
     );
   }

@@ -124,12 +124,11 @@ class _HomePageState extends State<HomePage> {
 
                       Navigator.push(context, MaterialPageRoute(builder: (context) => UserType()));
                     },
-                    child: Text('Giriş Yap', style: TextStyle( fontSize: 18, color: Colors.white)
+                    child: Text('Giriş Yap', style: TextStyle( fontSize: 18)
                       ,),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    color: Colors.orange,
                     padding: const EdgeInsets.all(15),
 
                   )

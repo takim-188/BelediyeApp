@@ -33,7 +33,7 @@ class _BotNavState extends State<BotNav> {
 
       bottomNavigationBar: ConvexAppBar(
         style: TabStyle.fixedCircle,
-        backgroundColor: Color(0xff3b42bf),
+        backgroundColor: Color(0xff22e3d7),
         items: [
 
           TabItem(icon: Icons.settings, title: "Ayarlar"),

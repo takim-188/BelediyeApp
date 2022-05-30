@@ -96,8 +96,7 @@ class _AdminSignInPageState extends State<AdminSignInPage> {
             child: MaterialButton(
                 height: 50,
                 minWidth: 100,
-                color: Colors.blueGrey,
-                child: Text("Giriş Yap",style: TextStyle(color: Colors.white),),
+                child: Text("Giriş Yap"),
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
 

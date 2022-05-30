@@ -25,14 +25,17 @@ class MyApp extends StatelessWidget {
      builder: (context, _) {
         final themeProvider = Provider.of<ThemeProvider>(context);
     return MaterialApp(
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-      locale: context.locale,
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       themeMode:  themeProvider.themeMode,
-      theme: MyThemes.lightTheme,
-      darkTheme: MyThemes.darkTheme,
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Color(0xff22e3d7),
+        accentColor: Color(0xfff20c60),
+        cursorColor:Color(0xfff20c60),
+        highlightColor: Color(0xfff20c60),
+        scaffoldBackgroundColor: Color(0xffededed)
+      ),
       home: BotNav()
     );
   });

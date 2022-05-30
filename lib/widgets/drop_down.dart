@@ -45,11 +45,10 @@ class dropdown_menu extends StatelessWidget {
         dropdownSearchDecoration: InputDecoration(
           labelText: name,
           labelStyle: TextStyle(fontSize: 14,),
-          floatingLabelStyle: TextStyle(color: Color(0xff3b42bf), fontWeight: FontWeight.bold),
+          floatingLabelStyle: TextStyle(fontWeight: FontWeight.bold),
           contentPadding: EdgeInsets.fromLTRB(12, 12, 0, 0),
           border: OutlineInputBorder(
             borderSide: BorderSide(
-              color: Color(0xff3b42bf),
             ),
           ),
           disabledBorder: OutlineInputBorder(
